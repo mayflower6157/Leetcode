@@ -30,4 +30,7 @@ class Solution_Count:
             else:
                 raise Exception("Type Error: Not binary")
 
+        if (count > max_count):
+            max_count = count
+
         return max_count
